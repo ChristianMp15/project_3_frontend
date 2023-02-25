@@ -5,7 +5,6 @@ const Show = (props) => {
 
   //styles
   const div = {
-    background:"https://i.imgur.com/hxqET60.jpg",
     textAlign: "center",
     border: "3px solid yellow",
     width: "50%",

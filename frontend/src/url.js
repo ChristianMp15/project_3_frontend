@@ -1,3 +1,3 @@
-const url = "http://localhost:8000/suits/"
+const url = "https://cmpproject4.onrender.com/suits/"
 
 export default url

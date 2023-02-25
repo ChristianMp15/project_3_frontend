@@ -4,8 +4,7 @@ const Post = (props) => {
   const post = props.post;
 
   // style
-  const div = {
-    background:"https://i.imgur.com/hxqET60.jpg",
+  const div = {   
     textAlign: "center",
     border: "3px solid",
     margin: "10px auto",

@@ -3,7 +3,7 @@ import Post from "../components/Post";
 
 
 const Index = (props) => {
-  const todos = useLoaderData();
+  const suits = useLoaderData();
 
   return <>
   <div style={{textAlign: "center"}}>
@@ -14,7 +14,7 @@ const Index = (props) => {
           <button>Add new suit</button>
       </Form>
   </div>
-  {todos.map((post) => <Post key={post.id} post={post} />)}
+  {suits.map((post) => <Post key={post.id} post={post} />)}
   </>;
 };
 
