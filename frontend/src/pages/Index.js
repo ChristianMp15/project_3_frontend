@@ -7,11 +7,11 @@ const Index = (props) => {
 
   return <>
   <div style={{textAlign: "center"}}>
-      <h2>Add New Stock</h2>
+      <h2>Add New Suit </h2>
       <Form action="/create" method="post">
           <input type="text" name="subject" placeholder="subject"/>
           <input type="text" name="details" placeholder="details"/>
-          <button>Add new suit</button>
+          <button>Add</button>
       </Form>
   </div>
   {suits.map((post) => <Post key={post.id} post={post} />)}
